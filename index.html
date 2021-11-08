@@ -1,61 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <script src="./script.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+    />
+    <title>Ecommercia</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="./styles.css" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
-  <script src="./script.js"></script>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+  <body>
+    <input type="checkbox" name="" id="check" />
 
-  <title>Ecommercia</title>
-</head>
+    <nav class="sticky">
+      <div class="icon">Ecommercia</div>
+      <div class="search_box">
+        <input type="search" placeholder="Search products" />
+        <span class="fa fa-search"></span>
+      </div>
 
-<body>
-  <input type="checkbox" name="" id="check">
+      <ol>
+        <li><a href="#" class="btn btn-center">Trending </a></li>
+        <li><a href="#" class="btn btn-center">Products</a></li>
+        <li><a href="#" class="btn btn-center">Login</a></li>
+        <li><a href="#" class="btn btn-center">Sign Up</a></li>
+      </ol>
+      <label for="check" class="bar">
+        <span class="fa fa-bars" id="bars"></span>
+        <span class="fa fa-times" id="times"></span>
+      </label>
+    </nav>
+  </body>
 
+  <!-- Slideshow container -->
+<div class="slideshow-container">
 
-  <nav>
-    <div class="icon">Ecommercia</div>
-    <div class="search_box">
-      <input type="search" placeholder="Search here">
-      <span class="fa fa-search"></span>
-    </div>
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <img src="./assets/Banner1.png" style="width:100%">
+  </div>
 
-    <ol>
-      <li><a href="#" class="btn btn-center">Trending </a></li>
-      <li><a href="#" class="btn btn-center">Products</a></li>
-      <li><a href="#" class="btn btn-center">Contact</a></li>
-      <li><a href="#" class="btn btn-center">Login</a></li>
-      <li><a href="#" class="btn btn-center">Sign Up</a></li>
-    </ol>
-    <label for="check" class="bar">
-      <span class="fa fa-bars" id="bars"></span>
-      <span class="fa fa-times" id="times"></span>
-    </label>
-  </nav>
+  <div class="mySlides fade">
+    <img src="./assets/Banner2.png" style="width:100%">
+  </div>
 
-  <script src="https://kit.fontawesome.com/67c66657c7.js"></script>
-</body>
+  <div class="mySlides fade">
+    <img src="./assets/Banner3.png" style="width:100%">
+  </div>
+
+</div>
+<br>
 
   <!-- Product section. -->
   <section class="product">
-    <h2 class="product-category">best selling</h2>
+    <h2 class="product-category">Top Deals</h2>
   </section>
 
-  <button class="pre-btn"><img src="assets/arrow.png" alt=""></button>
-  <button class="nxt-btn"><img src="assets/arrow.png" alt=""></button>
-
+  <button class="pre-btn"><img src="assets/arrow.png" alt="" /></button>
+  <button class="nxt-btn"><img src="assets/arrow.png" alt="" /></button>
 
   <div class="product-container">
     <div class="product-card">
       <div class="product-image">
         <span class="discount-tag">50% off</span>
-        <img src="assets/card1.png" class="product-thumb" alt="">
+        <img src="assets/card1.png" class="product-thumb" alt="" />
         <button class="card-btn">add to whislist</button>
       </div>
       <div class="product-info">
@@ -67,7 +85,7 @@
     <div class="product-card">
       <div class="product-image">
         <span class="discount-tag">50% off</span>
-        <img src="assets/card2.png" class="product-thumb" alt="">
+        <img src="assets/card2.png" class="product-thumb" alt="" />
         <button class="card-btn">add to whislist</button>
       </div>
       <div class="product-info">
@@ -79,7 +97,7 @@
     <div class="product-card">
       <div class="product-image">
         <span class="discount-tag">50% off</span>
-        <img src="assets/card3.png" class="product-thumb" alt="">
+        <img src="assets/card3.png" class="product-thumb" alt="" />
         <button class="card-btn">add to whislist</button>
       </div>
       <div class="product-info">
@@ -91,7 +109,7 @@
     <div class="product-card">
       <div class="product-image">
         <span class="discount-tag">50% off</span>
-        <img src="assets/card4.png" class="product-thumb" alt="">
+        <img src="assets/card4.png" class="product-thumb" alt="" />
         <button class="card-btn">add to whislist</button>
       </div>
       <div class="product-info">
@@ -103,7 +121,7 @@
     <div class="product-card">
       <div class="product-image">
         <span class="discount-tag">50% off</span>
-        <img src="assets/card5.png" class="product-thumb" alt="">
+        <img src="assets/card5.png" class="product-thumb" alt="" />
         <button class="card-btn">add to whislist</button>
       </div>
       <div class="product-info">
@@ -115,7 +133,7 @@
     <div class="product-card">
       <div class="product-image">
         <span class="discount-tag">50% off</span>
-        <img src="assets/card6.png" class="product-thumb" alt="">
+        <img src="assets/card6.png" class="product-thumb" alt="" />
         <button class="card-btn">add to whislist</button>
       </div>
       <div class="product-info">
@@ -127,7 +145,7 @@
     <div class="product-card">
       <div class="product-image">
         <span class="discount-tag">50% off</span>
-        <img src="assets/card7.png" class="product-thumb" alt="">
+        <img src="assets/card7.png" class="product-thumb" alt="" />
         <button class="card-btn">add to whislist</button>
       </div>
       <div class="product-info">
@@ -136,10 +154,8 @@
         <span class="price">₹229</span><span class="actual-price">₹40</span>
       </div>
     </div>
-
   </div>
   <!-- Product Section ends -->
-</body>
-<script src="./script.js"></script>
-
+  <script src="https://kit.fontawesome.com/67c66657c7.js"></script>
+  <script src="./script.js"></script>
 </html>
