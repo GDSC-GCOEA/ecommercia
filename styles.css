@@ -15,6 +15,9 @@ nav {
   justify-content: space-between;
   text-align: center;
   padding: 15px 30px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
 }
 
 nav .icon {
@@ -233,25 +236,27 @@ input[type="checkbox"] {
 }
 .pre-btn, .nxt-btn{
     border: none;
-    width: 10vw;
-    height: 100%;
+    width: 30px;
+    height: 30px;
     position: absolute;
-    top: 0;
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #fff 100%);
+    background: white;
     cursor: pointer;
     z-index: 8;
+    padding: 20px;
 }
 
 .pre-btn{
     left: 0;
     transform: rotate(180deg);
+    margin-top: 150px;
 }
 
 .nxt-btn{
     right: 0;
+    margin-top: 150px;
 }
 
 .pre-btn img, .nxt-btn img{
@@ -363,4 +368,37 @@ input[type="checkbox"] {
     margin-left: 20px;
     opacity: 0.5;
     text-decoration: line-through;
+}
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+  margin-top: 50px;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
 }
