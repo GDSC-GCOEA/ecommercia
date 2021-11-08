@@ -3,16 +3,16 @@ nxtBtn = [...document.querySelectorAll('.nxt-btn')];
 preBtn = [...document.querySelectorAll('.pre-btn')];
 
 productContainers.forEach((item, i) => {
-    let containerDimenstions = item.getBoundingClientRect();
-    let containerWidth = containerDimenstions.width;
+  let containerDimenstions = item.getBoundingClientRect();
+  let containerWidth = containerDimenstions.width;
 
-    nxtBtn[i].addEventListener('click', () => {
-        item.scrollLeft += containerWidth;
-    })
+  nxtBtn[i].addEventListener('click', () => {
+    item.scrollLeft += containerWidth;
+  })
 
-    preBtn[i].addEventListener('click', () => {
-        item.scrollLeft -= containerWidth;
-    })
+  preBtn[i].addEventListener('click', () => {
+    item.scrollLeft -= containerWidth;
+  })
 })
 
 var slideIndex = 0;
@@ -25,7 +25,7 @@ function showSlides() {
     slides[i].style.display = "none";
   }
   slideIndex++;
-  if (slideIndex > slides.length) {slideIndex = 1}
-  slides[slideIndex-1].style.display = "block";
+  if (slideIndex > slides.length) { slideIndex = 1 }
+  slides[slideIndex - 1].style.display = "block";
   setTimeout(showSlides, 4000); // Change image every 2 seconds
 }
