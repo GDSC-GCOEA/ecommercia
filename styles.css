@@ -285,7 +285,7 @@ input[type="checkbox"] {
 .product-card{
     flex: 0 0 auto;
     width: 250px;
-    height: 450px;
+    height: 500px;
     margin-right: 40px;
     
 }
@@ -500,5 +500,10 @@ footer{
   .product-container{
     display: flex;
     flex-direction: column;
+  }
+  .product-category{
+    font-weight: bold;
+    color: darkblue;
+    font-size: 40px;
   }
 }
