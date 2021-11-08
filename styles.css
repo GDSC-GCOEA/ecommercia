@@ -20,6 +20,10 @@ nav {
   z-index: 100;
 }
 
+.sticky::-webkit-scrollbar {
+  display: none;
+}
+
 nav .icon {
   font-size: 35px;
   font-weight: 800;
@@ -225,6 +229,7 @@ input[type="checkbox"] {
     position: relative;
     overflow: hidden;
     padding: 20px 0;
+    overflow-x: hidden;
 }
 
 .product-category{
@@ -410,6 +415,7 @@ footer{
   padding: 40px 10vw;
   padding-bottom: 80px;
   background: #383838;
+  margin-top: 50px;
 }
 
 .footer-content{
@@ -442,6 +448,7 @@ footer{
   transition: all .3s;
   opacity: 0.80;
   margin-left: -103px;
+  margin-top: 30px;
 }
 .footer-content .social a:hover{
   opacity: 1;
@@ -451,7 +458,7 @@ footer{
   transform: translateY(5px);
 }
 .footer-content .copyright{
-  margin-top: 15px;
+  margin-top: 50px;
   text-align: center;
   font-size: 13px;
   color: #fff;
