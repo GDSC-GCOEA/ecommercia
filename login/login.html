@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" type="image/jpg" href="./images/favicon.jpg" />
     <title>
         Connect Account | ECOMMERCIA
     </title>
@@ -15,7 +16,7 @@
     <div class="wrapper">
         <div class="headline">
             <h1>
-                Welcome to ECOMMERCIA 
+                Welcome to ECOMMERCIA
             </h1>
             <p>enjoy shopping!!</p>
         </div>
@@ -59,8 +60,24 @@
             </div>
         </form>
     </div>
+<script>
+    let btnLogin = document.getElementById("login");
+let btnSignUp = document.getElementById("signup");
 
-    <script src="main.js"></script>
+let signIn = document.querySelector(".signin");
+let signUp = document.querySelector(".signup");
+
+btnLogin.onclick = function () {
+    signIn.classList.add("active");
+    signUp.classList.add("inActive");
+
+}
+btnSignUp.onclick = function () {
+    signIn.classList.remove("active");
+    signUp.classList.remove("inActive");
+
+}
+</script>
 </body>
 
 </html>
