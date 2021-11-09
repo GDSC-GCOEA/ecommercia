@@ -238,6 +238,10 @@ input[type="checkbox"] {
     font-weight: 500;
     margin-bottom: 0px;
     text-transform: capitalize;
+    background: #0082e6;
+    color: #fff;
+    letter-spacing: 3px;
+    font-weight: 600;
 }
 .pre-btn, .nxt-btn{
     border: none;
@@ -501,11 +505,6 @@ footer{
     display: flex;
     flex-direction: column;
   }
-  .product-category{
-    font-weight: bold;
-    color: darkblue;
-    font-size: 40px;
-  }
 }
 
 /* single product detail */
@@ -613,5 +612,46 @@ input:focus{
   .single-product h1{
     font-size: 26px;
     line-height: 32px;
+  }
+}
+
+@media (max-width: 767px) {
+  .product-category {
+    font-weight: bold;
+    text-align: center;
+  }
+  .category {
+    width: 90vw;
+    text-align: center;
+    margin: 30px 5px;
+  }
+  .category-title {
+    padding: 0 25vw;
+  }
+  .footer-content {
+    display: block;
+    position: relative;
+  }
+  footer {
+    padding: 5px;
+    height: 705px;
+  }
+  .footer-content .copyright {
+    margin: -65px 0 -65px 20px;
+    position: absolute;
+    bottom: 0%;
+    text-align: center;
+    width: 90vw;
+    padding: 10px 0 0 0;
+    border-top: 2px solid rgba(255, 255, 255, 0.6);
+  }
+  .footer-ul-container {
+    display: block;
+  }
+  .footer-ul-container li {
+    text-align: center;
+  }
+  .social {
+    margin-bottom: 10px;
   }
 }
