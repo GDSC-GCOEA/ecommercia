@@ -7,7 +7,7 @@
 
 - 🤔 Can I contribute? **If you wish to contribute to the project, sent a PR. Only proper PRs with comments will be accepted, rest will be discarded as spam.**
 
-- Live Demo: **ecommercia.firebase.com**
+- Live Demo: **https://ecommercia-f6115.web.app/**
 
 
 <h3 align="left">Languages and Tools:</h3>
