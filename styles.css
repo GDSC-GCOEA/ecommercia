@@ -539,7 +539,11 @@ footer{
   margin: 30px 0;
   border-radius: 10px;
   border: none;
-
+  transition-duration: 0.4s;
+}
+.btn2:hover{
+  background-color: #ec9716; /* Green */
+  color: white;
 }
 .small-container{
   max-width: 1080px;
