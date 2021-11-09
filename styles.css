@@ -531,15 +531,16 @@ footer{
   line-height: 60px;
   margin: 25px 0;
 }
-.btn2{
+.btn2 {
   display: inline;
   background: #0082e6;
   color: #fff;
   padding: 8px 30px;
-  margin: 30px 0;
+  margin: 20px 0;
   border-radius: 10px;
   border: none;
   transition-duration: 0.4s;
+  font-size: x-large;
 }
 .btn2:hover{
   background-color: #ec9716; /* Green */
