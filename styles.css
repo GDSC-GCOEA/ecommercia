@@ -356,6 +356,7 @@ input[type="checkbox"] {
 
 .product-brand{
     text-transform: uppercase;
+    color: black;
 }
 
 .product-short-des{
@@ -371,6 +372,7 @@ input[type="checkbox"] {
 .price{
     font-weight: 900;
     font-size: 20px;
+    color: black;
 }
 
 .actual-price{
